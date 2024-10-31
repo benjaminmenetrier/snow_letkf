@@ -1,0 +1,120 @@
+{
+  "time window": {
+    "begin": "2023-12-04T05:30:00Z",
+    "length": "PT1H"
+  },
+  "geometry": {
+    "function space": "StructuredColumns",
+    "grid": {
+      "type": "regional",
+      "nx": 100,
+      "ny": 100,
+      "dx": 2.5e3,
+      "dy": 2.5e3,
+      "lonlat(centre)": [26.0, 70.0],
+      "projection": {
+        "type": "lambert_conformal_conic",
+        "latitude0": 80.0,
+        "longitude0": -24.0,
+        "radius": 6371000.0
+      },
+      "y_numbering": -1
+    },
+    "partitioner": "checkerboard",
+    "groups": [
+      {
+        "variables": ["WSN_VEG12_1","WSN_VEG12_2","RSN_VEG12_1","RSN_VEG12_2","HSN_VEG12_1","HSN_VEG12_2"],
+        "levels": "1",
+        "vert_coord from file": {
+          "date": "2023-12-04T06:00:00Z",
+          "variables": ["oro"],
+          "filepath": "data/grid"
+        }
+      }
+    ],
+    "halo": "1"
+  },
+  "background": {
+    "members from template": {
+      "template": {
+        "states": [
+          {
+            "date": "2023-12-04T06:00:00Z",
+            "variables": ["WSN_VEG12_1","WSN_VEG12_2","RSN_VEG12_1","RSN_VEG12_2","HSN_VEG12_1","HSN_VEG12_2"],
+            "filepath": "data/member_cv_%mem%"
+          }
+        ]
+      },
+      "pattern": "%mem%",
+      "zero padding": 6,
+      "nmembers": 20
+    }
+  },
+  "increment variables": ["WSN_VEG12_1","WSN_VEG12_2","RSN_VEG12_1","RSN_VEG12_2","HSN_VEG12_1","HSN_VEG12_2"],
+  "observations": {
+    "observers": [
+      {
+        "obs space": {
+          "name": "DSN_T_ISBA",
+          "distribution": {
+            "name": "Halo",
+            "halo size": "50e3"
+          },
+          "simulated variables": ["DSN_T_ISBA"],
+          "obsdatain": {
+            "engine": {
+              "type": "H5File",
+              "obsfile": "data/observations.nc"
+            }
+          },
+          "obsdataout": {
+            "engine": {
+              "type": "H5File",
+              "obsfile": "data/observations_letkf.nc"
+            }
+          }
+        },
+        "obs operator": {
+          "name": "Identity"
+        },
+        "obs error": {
+          "covariance model": "diagonal"
+        },
+        "obs localizations": [
+          {
+            "localization method": "default",
+            "horizontal length-scale": "50e3"
+          }
+        ]
+      }
+    ]
+  },
+  "driver": {
+    "update obs config with geometry info": true,
+    "save posterior ensemble increments": true,
+    "read HX from disk": true,
+    "do posterior observer": false
+  },
+  "local ensemble DA": {
+    "solver": "LETKF",
+    "inflation": {
+      "rtpp": 0.5,
+      "mult": 1.1
+    }
+  },
+  "output": {
+    "states": [
+      {
+        "date": "2023-12-04T06:00:00Z",
+        "filepath": "data/member_letkf"
+      }
+    ]
+  },
+  "output ensemble increments": {
+    "date": "2023-12-04T06:00:00Z",
+    "filepath": "data/member_letkf_inc"
+  },
+  "test": {
+    "reference filename": "ref/letkf.ref"
+  }
+}

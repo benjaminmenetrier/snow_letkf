@@ -1,0 +1,67 @@
+{
+  "input geometry": {
+    "function space": "StructuredColumns",
+    "grid": {
+      "type": "regional",
+      "nx": 1796,
+      "ny": 2321,
+      "dx": 1000.0,
+      "dy": 1000.0,
+      "lonlat(centre)": [15.001164907304375, 63.50071790568658],
+      "projection": {
+        "type": "lambert_conformal_conic",
+        "latitude0": 63.0,
+        "longitude0": 15.0,
+        "radius": 6371000.0
+      },
+      "y_numbering": -1
+    },
+    "partitioner": "checkerboard",
+    "groups": [
+      {
+        "variables": ["oro"],
+        "levels": "1"
+      }
+    ],
+    "halo": "0"
+  },
+  "output geometry": {
+    "function space": "StructuredColumns",
+    "grid": {
+      "type": "regional",
+      "nx": 100,
+      "ny": 100,
+      "dx": 2.5e3,
+      "dy": 2.5e3,
+      "lonlat(centre)": [26.0, 70.0],
+      "projection": {
+        "type": "lambert_conformal_conic",
+        "latitude0": 80.0,
+        "longitude0": -24.0,
+        "radius": 6371000.0
+      },
+      "y_numbering": -1
+    },
+    "partitioner": "checkerboard",
+    "groups": [
+      {
+        "variables": ["oro"],
+        "levels": "1"
+      }
+    ],
+    "halo": "0"
+  },
+  "states": [
+    {
+      "input": {
+        "date": "2023-12-04T06:00:00Z",
+        "variables": ["oro"],
+        "filepath": "data/fine_grid"
+      },
+      "output": {
+        "date": "2023-12-04T06:00:00Z",
+        "filepath": "data/grid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+Initial state for member 1:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0119145777816634e+01
+  WSN_VEG12_2: 9.3454282121456025e+00
+  RSN_VEG12_1: 1.1268364652610944e+04
+  RSN_VEG12_2: 1.0752081940773322e+04
+  HSN_VEG12_1: 3.7878872132186007e+09
+  HSN_VEG12_2: 3.7132936645449839e+09
+Initial state for member 2:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0067835073068675e+01
+  WSN_VEG12_2: 8.6291995212592560e+00
+  RSN_VEG12_1: 1.1289402298174242e+04
+  RSN_VEG12_2: 1.0860837637246064e+04
+  HSN_VEG12_1: 3.8050646663716145e+09
+  HSN_VEG12_2: 3.7548276191673665e+09
+Initial state for member 3:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.5970200920704798e+00
+  WSN_VEG12_2: 6.8460442492205340e+00
+  RSN_VEG12_1: 1.1236328223457622e+04
+  RSN_VEG12_2: 1.0922271186972404e+04
+  HSN_VEG12_1: 3.7891635445939546e+09
+  HSN_VEG12_2: 3.7825728719964600e+09
+Initial state for member 4:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.6715657248657347e+00
+  WSN_VEG12_2: 6.3679154824484359e+00
+  RSN_VEG12_1: 1.1221530845271029e+04
+  RSN_VEG12_2: 1.0815767072177983e+04
+  HSN_VEG12_1: 3.7888520688488226e+09
+  HSN_VEG12_2: 3.7452987183666916e+09
+Initial state for member 5:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0030877130360100e+01
+  WSN_VEG12_2: 8.0749352592306956e+00
+  RSN_VEG12_1: 1.1225548630101155e+04
+  RSN_VEG12_2: 1.0826881056491307e+04
+  HSN_VEG12_1: 3.7807828015812645e+09
+  HSN_VEG12_2: 3.7438242502988524e+09
+Initial state for member 6:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.7460829312293349e+00
+  WSN_VEG12_2: 9.1855855212732553e+00
+  RSN_VEG12_1: 1.1280295831340978e+04
+  RSN_VEG12_2: 1.0855169430386315e+04
+  HSN_VEG12_1: 3.7954405208039131e+09
+  HSN_VEG12_2: 3.7508433943392615e+09
+Initial state for member 7:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0023145576832842e+01
+  WSN_VEG12_2: 8.5982872672159338e+00
+  RSN_VEG12_1: 1.1236152243563520e+04
+  RSN_VEG12_2: 1.0869135422514571e+04
+  HSN_VEG12_1: 3.7808946292166433e+09
+  HSN_VEG12_2: 3.7615959923491602e+09
+Initial state for member 8:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0547295809222504e+01
+  WSN_VEG12_2: 1.0543220351295052e+01
+  RSN_VEG12_1: 1.1269338692506761e+04
+  RSN_VEG12_2: 1.0902245401648470e+04
+  HSN_VEG12_1: 3.7871206385299850e+09
+  HSN_VEG12_2: 3.7658863199413810e+09
+Initial state for member 9:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.5307640580285984e+00
+  WSN_VEG12_2: 6.9604737762793203e+00
+  RSN_VEG12_1: 1.1216728161555906e+04
+  RSN_VEG12_2: 1.0858230980975723e+04
+  HSN_VEG12_1: 3.7867453320363407e+09
+  HSN_VEG12_2: 3.7603150340578780e+09
+Initial state for member 10:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.1076279298563952e+01
+  WSN_VEG12_2: 8.4400203722122402e+00
+  RSN_VEG12_1: 1.1241638745511756e+04
+  RSN_VEG12_2: 1.0804662674150271e+04
+  HSN_VEG12_1: 3.7827766451367059e+09
+  HSN_VEG12_2: 3.7341276722431564e+09
+Initial state for member 11:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.1036120653604119e+01
+  WSN_VEG12_2: 8.9939105533263000e+00
+  RSN_VEG12_1: 1.1265801300970976e+04
+  RSN_VEG12_2: 1.0858029243731629e+04
+  HSN_VEG12_1: 3.7944711720377183e+09
+  HSN_VEG12_2: 3.7516743839600039e+09
+Initial state for member 12:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.3580255266447736e+00
+  WSN_VEG12_2: 6.6981660669348519e+00
+  RSN_VEG12_1: 1.1208211691255678e+04
+  RSN_VEG12_2: 1.0829987595974962e+04
+  HSN_VEG12_1: 3.7841617255531144e+09
+  HSN_VEG12_2: 3.7488665675523438e+09
+Initial state for member 13:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.2441241256675148e+00
+  WSN_VEG12_2: 7.6349366593192807e+00
+  RSN_VEG12_1: 1.1272114866257340e+04
+  RSN_VEG12_2: 1.0879758221992077e+04
+  HSN_VEG12_1: 3.7981627638196731e+09
+  HSN_VEG12_2: 3.7656251330332747e+09
+Initial state for member 14:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.7932338175283409e+00
+  WSN_VEG12_2: 7.5869441819447641e+00
+  RSN_VEG12_1: 1.1247756677693851e+04
+  RSN_VEG12_2: 1.0900199469232823e+04
+  HSN_VEG12_1: 3.7928401277606554e+09
+  HSN_VEG12_2: 3.7727285414228296e+09
+Initial state for member 15:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.7594185340409716e+00
+  WSN_VEG12_2: 7.8978443097743734e+00
+  RSN_VEG12_1: 1.1190965302358492e+04
+  RSN_VEG12_2: 1.0807736102744806e+04
+  HSN_VEG12_1: 3.7767244631319637e+09
+  HSN_VEG12_2: 3.7356689995892954e+09
+Initial state for member 16:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0954552416929555e+01
+  WSN_VEG12_2: 9.5295286065490625e+00
+  RSN_VEG12_1: 1.1241038484724470e+04
+  RSN_VEG12_2: 1.0831804554015809e+04
+  HSN_VEG12_1: 3.7846641158482809e+09
+  HSN_VEG12_2: 3.7430824093016033e+09
+Initial state for member 17:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.1670958422378988e+00
+  WSN_VEG12_2: 6.9427095828384475e+00
+  RSN_VEG12_1: 1.1151581342139827e+04
+  RSN_VEG12_2: 1.0777837333530017e+04
+  HSN_VEG12_1: 3.7627194579815750e+09
+  HSN_VEG12_2: 3.7281628547958250e+09
+Initial state for member 18:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.2458098705964122e+00
+  WSN_VEG12_2: 6.2841623682501311e+00
+  RSN_VEG12_1: 1.1204508637345956e+04
+  RSN_VEG12_2: 1.0900299094351310e+04
+  HSN_VEG12_1: 3.7775906489583216e+09
+  HSN_VEG12_2: 3.7771682350792227e+09
+Initial state for member 19:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.4434603746439603e+00
+  WSN_VEG12_2: 6.6402656976987071e+00
+  RSN_VEG12_1: 1.1240410074556554e+04
+  RSN_VEG12_2: 1.0868507349697018e+04
+  HSN_VEG12_1: 3.7918912712571540e+09
+  HSN_VEG12_2: 3.7634430503061194e+09
+Initial state for member 20:
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 1.0163766876497657e+01
+  WSN_VEG12_2: 8.4048950943883547e+00
+  RSN_VEG12_1: 1.1261863887962510e+04
+  RSN_VEG12_2: 1.0835051912661471e+04
+  HSN_VEG12_1: 3.7901580097538619e+09
+  HSN_VEG12_2: 3.7474136136464214e+09
+H(x) for member 1:
+DSN_T_ISBA nobs= 20 Min=1.8442065629642457e-04, Max=1.1671754531562328e-02, RMS=4.9995042231614391e-03
+
+
+H(x) for member 2:
+DSN_T_ISBA nobs= 20 Min=2.6646078913472593e-04, Max=9.9118743091821671e-03, RMS=4.2906848016145199e-03
+
+
+H(x) for member 3:
+DSN_T_ISBA nobs= 20 Min=3.1447867513634264e-04, Max=1.5432666055858135e-02, RMS=6.2369328559424269e-03
+
+
+H(x) for member 4:
+DSN_T_ISBA nobs= 20 Min=2.3485934070777148e-04, Max=1.1773730628192425e-02, RMS=5.6379272557876706e-03
+
+
+H(x) for member 5:
+DSN_T_ISBA nobs= 20 Min=1.8875699606724083e-04, Max=1.8405545502901077e-02, RMS=5.6543786442360975e-03
+
+
+H(x) for member 6:
+DSN_T_ISBA nobs= 20 Min=2.7072522789239883e-04, Max=9.9243996664881706e-03, RMS=4.0610468809895717e-03
+
+
+H(x) for member 7:
+DSN_T_ISBA nobs= 20 Min=2.4560568272136152e-04, Max=1.4545757323503494e-02, RMS=4.8011224404994847e-03
+
+
+H(x) for member 8:
+DSN_T_ISBA nobs= 20 Min=2.2400151647161692e-04, Max=1.5220009721815586e-02, RMS=4.6208087955978520e-03
+
+
+H(x) for member 9:
+DSN_T_ISBA nobs= 20 Min=1.8902796728070825e-04, Max=1.2794621288776398e-02, RMS=6.5227159850211932e-03
+
+
+H(x) for member 10:
+DSN_T_ISBA nobs= 20 Min=2.0877284987363964e-04, Max=1.0250037536025047e-02, RMS=5.0932797136816225e-03
+
+
+H(x) for member 11:
+DSN_T_ISBA nobs= 20 Min=2.0397012121975422e-04, Max=1.7847621813416481e-02, RMS=7.0175232386061812e-03
+
+
+H(x) for member 12:
+DSN_T_ISBA nobs= 20 Min=2.0598528499249369e-04, Max=1.0548110119998455e-02, RMS=3.9103135162052317e-03
+
+
+H(x) for member 13:
+DSN_T_ISBA nobs= 20 Min=2.2625243582297117e-04, Max=1.3134294189512730e-02, RMS=4.3538993561432031e-03
+
+
+H(x) for member 14:
+DSN_T_ISBA nobs= 20 Min=2.2227471345104277e-04, Max=1.2582092545926571e-02, RMS=5.8407935998098879e-03
+
+
+H(x) for member 15:
+DSN_T_ISBA nobs= 20 Min=2.0754316938109696e-04, Max=9.7520546987652779e-03, RMS=4.8324378100386292e-03
+
+
+H(x) for member 16:
+DSN_T_ISBA nobs= 20 Min=1.9581511151045561e-04, Max=1.2852803803980350e-02, RMS=4.7155425904923118e-03
+
+
+H(x) for member 17:
+DSN_T_ISBA nobs= 20 Min=2.3860073997639120e-04, Max=1.1342395097017288e-02, RMS=5.4383861783237862e-03
+
+
+H(x) for member 18:
+DSN_T_ISBA nobs= 20 Min=2.3975149088073522e-04, Max=1.0597682558000088e-02, RMS=4.6628163803593935e-03
+
+
+H(x) for member 19:
+DSN_T_ISBA nobs= 20 Min=1.9218183297198266e-04, Max=1.0934893973171711e-02, RMS=4.2038290555372476e-03
+
+
+H(x) for member 20:
+DSN_T_ISBA nobs= 20 Min=2.2367697965819389e-04, Max=1.5398401767015457e-02, RMS=5.8623532008515444e-03
+
+
+H(x) ensemble background mean: 
+DSN_T_ISBA nobs= 20 Min=2.2415807907236741e-04, Max=1.1293412442319095e-02, RMS=4.8823946053607840e-03
+
+
+background y - H(x): 
+DSN_T_ISBA nobs= 20 Min=1.1715318972710520e-01, Max=4.2809421271085740e-01, RMS=2.8038188008286735e-01
+
+
+Background mean :
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.6769270021000366e+00
+  WSN_VEG12_2: 7.5385630226743023e+00
+  RSN_VEG12_1: 1.1235135214899079e+04
+  RSN_VEG12_2: 1.0824817436104771e+04
+  HSN_VEG12_1: 3.7839636583115649e+09
+  HSN_VEG12_2: 3.7439952284465671e+09
+Analysis mean :
+Valid time:2023-12-04T06:00:00Z
+Quench geometry grid:
+- name: structured
+- size: 10000
+Regional grid detected
+Partitioner:
+- type: checkerboard
+Function space:
+- type: StructuredColumns
+- halo: 1
+Groups: 
+- Group 0:
+  Vertical levels: 
+  - number: 1
+  - vert_coord: [2.5529170740561923e+02]
+  Mask size: 100%
+Fields:
+  WSN_VEG12_1: 9.0995399012496648e+01
+  WSN_VEG12_2: 1.2306236881472417e+02
+  RSN_VEG12_1: 1.3744150386021671e+04
+  RSN_VEG12_2: 1.4597368815030770e+04
+  HSN_VEG12_1: 4.4260433204571285e+09
+  HSN_VEG12_2: 4.8885235810689430e+09

@@ -1,2 +1,2 @@
-# snow_letkf
+# Snow LETKF
 Snow LETKF using MetNo data

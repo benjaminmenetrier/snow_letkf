@@ -1,0 +1,56 @@
+{
+  "resolution": {
+    "function space": "StructuredColumns",
+    "grid": {
+      "type": "regional",
+      "nx": 100,
+      "ny": 100,
+      "dx": 2.5e3,
+      "dy": 2.5e3,
+      "lonlat(centre)": [26.0, 70.0],
+      "projection": {
+        "type": "lambert_conformal_conic",
+        "latitude0": 80.0,
+        "longitude0": -24.0,
+        "radius": 6371000.0
+      },
+      "y_numbering": -1
+    },
+    "partitioner": "checkerboard",
+    "groups": [
+      {
+        "variables": ["DSN_T_ISBA"],
+        "levels": "1"
+      }
+    ],
+    "halo": "1"
+  },
+  "model": {},
+  "initial": {
+    "date": "2023-12-04T06:00:00Z",
+    "variables": ["DSN_T_ISBA"],
+    "filepath": "data/member_hofx_%mem%"
+  },
+  "forecast_length": "PT0S",
+  "Observations": {
+    "ObsTypes": [
+      {
+        "ObsType": "default",
+        "ObsData": {
+          "ObsDataIn": {
+            "filepath": "data/observations"
+          },
+          "ObsDataOut": {
+            "filepath": "data/member_hofx_obs_%mem%"
+          },
+          "obsvalue": "hofx"
+        },
+        "variables": ["DSN_T_ISBA"]
+      }
+    ]
+  },
+  "Assimilation Window": {
+    "Begin": "2023-12-04T06:00:00Z",
+    "Length": "PT0S"
+  }
+}
