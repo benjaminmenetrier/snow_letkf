@@ -1,5 +1,5 @@
 {
-  "geometry": {
+  "resolution": {
     "function space": "StructuredColumns",
     "grid": {
       "type": "regional",
@@ -25,38 +25,32 @@
     ],
     "halo": "1"
   },
-  "state": {
+  "model": {},
+  "initial": {
     "date": "2023-12-04T06:00:00Z",
     "variables": ["DSN_T_ISBA"],
     "filepath": "data/member_hofx_%mem%"
   },
-  "observations": {
-    "observers": [
+  "forecast_length": "PT0S",
+  "Observations": {
+    "ObsTypes": [
       {
-        "obs space": {
-          "name": "DSN_T_ISBA",
-          "simulated variables": ["DSN_T_ISBA"],
-          "obsdatain": {
-            "engine": {
-              "type": "H5File",
-              "obsfile": "data/observations.nc"
-            }
+        "ObsType": "default",
+        "ObsData": {
+          "ObsDataIn": {
+            "filepath": "data/observations"
           },
-          "obsdataout": {
-            "engine": {
-              "type": "H5File",
-              "obsfile": "data/member_hofx_obs_%mem%.nc"
-            }
-          }
+          "ObsDataOut": {
+            "filepath": "data/member_hofx_obs_%mem%"
+          },
+          "obsvalue": "hofx"
         },
-        "obs operator": {
-          "name": "Identity"
-        }
+        "variables": ["DSN_T_ISBA"]
       }
     ]
   },
-  "time window": {
-    "begin": "2023-12-04T05:30:00Z",
-    "length": "PT1H"
+  "Assimilation Window": {
+    "Begin": "2023-12-04T06:00:00Z",
+    "Length": "PT0S"
   }
 }

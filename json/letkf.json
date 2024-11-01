@@ -115,6 +115,7 @@
     "filepath": "data/member_letkf_inc"
   },
   "test": {
-    "reference filename": "ref/letkf.ref"
+    "reference filename": "ref/letkf.ref",
+    "test output filename": "ref/letkf.log"
   }
 }
